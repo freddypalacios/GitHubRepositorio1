@@ -14,18 +14,9 @@ string maxDepkey = ordenado.Last().Key;
 Departamento = ordenado.Keys.ToArray();
 Poblacion = ordenado.Values.ToArray();
 //Mostrar los arreglos ordenados de menor a mayor.
-<<<<<<< HEAD
 for (var i= 0; i< Poblacion. Length; i++)
 Console.WriteLine ($"{Departamento [i],20} ==> {Poblacion [i],10:N0}");
- //Suma de toda la población y nombre de mayor y menor 
+ //Suma de toda la población y nombre de mayor y menor  con el diccionario 
 Console.WriteLine ($" Población General:{Poblacion. Sum():N0}");
 Console.WriteLine ($"Mayor Población:{maxDepkey}");
 Console.WriteLine ($"Menor Población:{minDepkey}");
-=======
-for (var i = 0; i < Poblacion.Length; i++)
-    Console.WriteLine($"{Departamento[i],20} ==> {Poblacion[i],10:N0}");
-//Suma de toda la población y nombre de mayor y menor 
-Console.WriteLine($" Población General:{Poblacion.Sum():N0}");
-Console.WriteLine($"Depto. con mayor Población:{maxDepkey}");
-Console.WriteLine($"Depto. con menor Población:{minDepkey}");
->>>>>>> versionSimple
