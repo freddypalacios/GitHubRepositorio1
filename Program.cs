@@ -10,7 +10,7 @@ var ordenado = diccionario.OrderBy(x => x.Value).ToDictionary(x => x.Key, x => x
 //fijando los nombres de los departamen tos con menor y mayor poblacion
 string minDepkey = ordenado.First().Key;
 string maxDepkey = ordenado.Last().Key;
-//reasignación de los arreglos en paralelo 
+//reasignación de los arreglos en paralelo ya ordenados
 Departamento = ordenado.Keys.ToArray();
 Poblacion = ordenado.Values.ToArray();
 //Mostrar los arreglos ordenados de menor a mayor.
