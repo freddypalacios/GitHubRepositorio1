@@ -1,0 +1,12 @@
+#ignorar archivos de proyecto de vscode
+*.csproj
+*.sln
+.DS_Store
+#ignorar carpeta de compilación
+bin/
+obj/
+#ignorar archivos dentro bin
+bin/debug/net9.0/*.dll
+bin/debug/net9.0//*.exe
+bin/debug/net9.0//*.pdb
+bin/debug/net9.0//*.json
