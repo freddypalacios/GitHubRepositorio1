@@ -31,7 +31,7 @@ public class Diccionario
     /// </summary>
     /// <param name="Departamento"> deparmentos ordenado por poblacion</param>
     /// <param name="Poblacion">Clave de ordenamiento</param>
-    /// /// <remarks>
+    /// <remarks>
     /// Este metodo tambien suma toda las poblaciones
     /// </remarks>
 
