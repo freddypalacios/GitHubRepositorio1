@@ -7,4 +7,4 @@
   > Dorothy followed her through <br>
   >> many of the beautiful rooms in her castle.
 - Tercero
--  ![Tux, the Linux mascot](tux.png)
+-  ![Tux, la mascota de Linux](tux.png)
